@@ -2,7 +2,7 @@ package io.dave.arrays;
 
 import java.util.HashSet;
 
-public class ArrayElementAppearsOnce {
+public class UniqueElementInAray {
     public static void main(String[] args) {
         int[] arr = {1,1,2,3,3,4,4,5,5};
         findOneOccurrenceElementUsingMap(arr);
