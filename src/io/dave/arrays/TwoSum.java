@@ -21,7 +21,7 @@ public class TwoSum {
             }
              numMap.put(nums[i],i);
         }
-        return null;
+        return null; 
     }
     public static int[] twoSumUsingTwoPointers(int[] nums, int target){
         Arrays.sort(nums);
