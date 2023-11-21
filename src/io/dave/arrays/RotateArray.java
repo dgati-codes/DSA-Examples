@@ -53,7 +53,7 @@ public class RotateArray {
         int n = nums.length;
         int[] rotateArr= new int[n];
         for (int i = 0; i < n; i++) {
-            int newPosition = (i + k + n)%n;
+            int newPosition = (i - k + n)%n;
             rotateArr[newPosition]= nums[i];
         }
         System.out.println(" Result after Right rotate");
