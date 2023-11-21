@@ -6,10 +6,7 @@ public class RotateArray {
 
     public static void main(String[] args) {
         int[] numArr = {1,2,3,4,5,6,7};
-        System.out.println(" Initial Array list");
-        System.out.println(Arrays.toString(numArr));
-        rotateRightUsingModByK(numArr,3);
-        System.out.println(Arrays.toString(numArr));
+        
     }
 
     public static void rotateLeftByK(int[] nums, int k){
