@@ -35,7 +35,7 @@ public class RotateArray {
         System.out.println(Arrays.toString(nums));
     }
 
-    public static void rotateRightUsingModByK(int[] nums, int k){
+    public static int[] rotateRightUsingModByK(int[] nums, int k){
         int n = nums.length;
         int[] rotateArr= new int[n];
         for (int i = 0; i < n; i++) {
@@ -44,9 +44,9 @@ public class RotateArray {
         }
         System.out.println(" Result after Right rotate");
         System.arraycopy(rotateArr, 0, nums, 0, n);
-
+        return nums;
     }
-    public static void rotateLeftUsingModByK(int[] nums, int k){
+    public static int[] rotateLeftUsingModByK(int[] nums, int k){
         int n = nums.length;
         int[] rotateArr= new int[n];
         for (int i = 0; i < n; i++) {
@@ -55,6 +55,6 @@ public class RotateArray {
         }
         System.out.println(" Result after Right rotate");
         System.arraycopy(rotateArr, 0, nums, 0, n);
-
+        return nums;
     }
 }
